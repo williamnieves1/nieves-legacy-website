@@ -1,0 +1,1005 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<meta name="description" content="Acompañamiento estratégico para familias con visión. Claridad, estructura y dirección. The Clarity Program — 90 días para ordenar tu panorama financiero."/>
+<meta property="og:title" content="Nieves Legacy Partners LLC"/>
+<meta property="og:description" content="Acompañamiento estratégico para familias con visión. Claridad, estructura y dirección."/>
+<meta property="og:image" content="https://officialwebsite.nieveslegacypartners.com/logo-dark.png"/>
+<meta property="og:url" content="https://officialwebsite.nieveslegacypartners.com"/>
+<meta name="twitter:card" content="summary_large_image"/>
+<title>Nieves Legacy Partners LLC — Construye lo que Trasciende</title>
+<link rel="icon" type="image/png" href="favicon.png"/>
+<link rel="preconnect" href="https://fonts.googleapis.com"/>
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400;1,600&family=Open+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet"/>
+<style>
+:root {
+  --gold: #AD7B49;
+  --gold-light: #c49a6c;
+  --gold-dark: #8a5e32;
+  --gold-bg: rgba(173,123,73,0.08);
+  --white: #ffffff;
+  --off-white: #F4F2F2;
+  --off-white-2: #EDECEA;
+  --dark: #111111;
+  --dark-2: #1e1e1e;
+  --gray: #5a5a5a;
+  --gray-light: #8a8a8a;
+  --border: rgba(173,123,73,0.18);
+  --shadow: rgba(0,0,0,0.08);
+  --shadow-lg: rgba(0,0,0,0.14);
+  --font-display: 'Cormorant Garamond', Georgia, serif;
+  --font-body: 'Open Sans', sans-serif;
+  --nav-h: 72px;
+}
+*{margin:0;padding:0;box-sizing:border-box;-webkit-box-sizing:border-box;}
+html{scroll-behavior:smooth;font-size:16px;}
+body{background:var(--off-white);color:var(--dark);font-family:var(--font-body);line-height:1.7;overflow-x:hidden;-webkit-font-smoothing:antialiased;}
+img{max-width:100%;height:auto;display:block;-webkit-user-drag:none;}
+a{text-decoration:none;color:inherit;}
+::-webkit-scrollbar{width:4px;}
+::-webkit-scrollbar-track{background:var(--off-white);}
+::-webkit-scrollbar-thumb{background:var(--gold);border-radius:2px;}
+
+/* ─ TYPOGRAPHY ─ */
+h1,h2,h3,h4{font-family:var(--font-display);font-weight:600;line-height:1.15;color:var(--dark);}
+h1{font-size:clamp(2.6rem,6vw,5.5rem);letter-spacing:-0.02em;}
+h2{font-size:clamp(2rem,4vw,3.5rem);}
+h3{font-size:clamp(1.3rem,2vw,1.9rem);}
+p{color:var(--gray);font-weight:400;font-size:0.97rem;line-height:1.8;}
+.gold{color:var(--gold);}
+.italic{font-style:italic;}
+.section-label{font-size:10px;font-weight:700;letter-spacing:0.3em;text-transform:uppercase;color:var(--gold);display:block;margin-bottom:12px;}
+.gold-line{width:48px;height:2px;background:var(--gold);margin-bottom:20px;}
+.gold-line.center{margin-left:auto;margin-right:auto;}
+
+/* ─ BUTTONS ─ */
+.btn{display:inline-flex;align-items:center;gap:8px;padding:15px 32px;font-family:var(--font-body);font-size:12px;font-weight:700;letter-spacing:0.14em;text-transform:uppercase;border:none;cursor:pointer;transition:all 0.3s ease;position:relative;overflow:hidden;-webkit-appearance:none;}
+.btn-gold{background:var(--gold);color:#fff;}
+.btn-gold:hover{background:var(--gold-dark);transform:translateY(-2px);box-shadow:0 8px 28px rgba(173,123,73,0.35);}
+.btn-outline{background:transparent;color:var(--dark);border:1.5px solid var(--dark);}
+.btn-outline:hover{border-color:var(--gold);color:var(--gold);transform:translateY(-2px);}
+.btn-outline-gold{background:transparent;color:var(--gold);border:1.5px solid var(--gold);}
+.btn-outline-gold:hover{background:var(--gold);color:#fff;transform:translateY(-2px);}
+.btn-arrow::after{content:'→';transition:transform 0.3s;}
+.btn-arrow:hover::after{transform:translateX(4px);}
+.btn-full{width:100%;justify-content:center;}
+
+/* ─ NAV ─ */
+nav{position:fixed;top:0;left:0;right:0;z-index:1000;height:var(--nav-h);display:flex;align-items:center;justify-content:space-between;padding:0 5%;transition:all 0.4s ease;background:transparent;}
+nav.scrolled{background:rgba(244,242,242,0.97);backdrop-filter:blur(16px);-webkit-backdrop-filter:blur(16px);border-bottom:1px solid var(--border);box-shadow:0 2px 20px var(--shadow);}
+.nav-logo img{height:38px;width:auto;transition:height 0.4s;}
+nav.scrolled .nav-logo img{height:32px;}
+.nav-links{display:flex;align-items:center;gap:36px;list-style:none;}
+.nav-links a{font-size:11px;font-weight:700;letter-spacing:0.15em;text-transform:uppercase;color:var(--dark);opacity:0.75;transition:all 0.3s;position:relative;}
+.nav-links a::after{content:'';position:absolute;bottom:-4px;left:0;right:0;height:1.5px;background:var(--gold);transform:scaleX(0);transition:transform 0.3s;}
+.nav-links a:hover{opacity:1;}
+.nav-links a:hover::after{transform:scaleX(1);}
+.nav-right{display:flex;align-items:center;gap:16px;}
+.hamburger-btn{width:44px;height:44px;background:var(--gold);border:none;cursor:pointer;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:5px;transition:all 0.3s;flex-shrink:0;}
+.hamburger-btn span{display:block;width:20px;height:1.5px;background:#fff;transition:all 0.3s;}
+.hamburger-btn:hover{background:var(--gold-dark);}
+.hamburger-btn.open span:nth-child(1){transform:translateY(6.5px) rotate(45deg);}
+.hamburger-btn.open span:nth-child(2){opacity:0;transform:scaleX(0);}
+.hamburger-btn.open span:nth-child(3){transform:translateY(-6.5px) rotate(-45deg);}
+@media(max-width:768px){.nav-links,.nav-right .btn{display:none;}.nav-right{gap:12px;}}
+
+/* ─ SIDE PANEL ─ */
+.side-overlay{position:fixed;inset:0;background:rgba(17,17,17,0.6);z-index:1998;opacity:0;pointer-events:none;transition:opacity 0.4s ease;backdrop-filter:blur(4px);}
+.side-overlay.open{opacity:1;pointer-events:all;}
+.side-panel{position:fixed;top:0;right:-420px;width:min(420px,100vw);height:100vh;background:var(--white);z-index:1999;transition:right 0.45s cubic-bezier(0.22,1,0.36,1);display:flex;flex-direction:column;overflow-y:auto;box-shadow:-8px 0 40px var(--shadow-lg);}
+.side-panel.open{right:0;}
+.side-panel-header{display:flex;align-items:center;justify-content:space-between;padding:24px 32px;border-bottom:1px solid var(--border);min-height:72px;}
+.side-panel-header img{height:32px;}
+.side-close{width:36px;height:36px;border:1.5px solid var(--border);background:none;cursor:pointer;font-size:1.1rem;color:var(--dark);display:flex;align-items:center;justify-content:center;transition:all 0.3s;}
+.side-close:hover{border-color:var(--gold);color:var(--gold);}
+.side-panel-body{padding:36px 32px;flex:1;}
+.side-section-label{font-size:9px;letter-spacing:0.3em;text-transform:uppercase;font-weight:700;color:var(--gold);margin-bottom:16px;display:block;padding-bottom:8px;border-bottom:1px solid var(--border);}
+.side-links{display:flex;flex-direction:column;gap:4px;margin-bottom:32px;}
+.side-link{display:flex;align-items:center;justify-content:space-between;padding:16px 0;border-bottom:1px solid rgba(173,123,73,0.08);transition:all 0.3s;color:var(--dark);}
+.side-link:hover{color:var(--gold);padding-left:8px;}
+.side-link-info{}
+.side-link-title{font-size:1rem;font-weight:600;font-family:var(--font-display);margin-bottom:2px;}
+.side-link-sub{font-size:0.75rem;color:var(--gray-light);}
+.side-link-arrow{color:var(--gold);font-size:1rem;transition:transform 0.3s;}
+.side-link:hover .side-link-arrow{transform:translateX(4px);}
+.side-cta-area{margin-top:auto;padding:32px;border-top:1px solid var(--border);background:var(--off-white);}
+.side-cta-area p{font-size:0.82rem;margin-bottom:16px;color:var(--gray);}
+.side-social{display:flex;gap:10px;margin-top:16px;}
+.side-social a{width:36px;height:36px;border:1px solid var(--border);display:flex;align-items:center;justify-content:center;color:var(--gray);transition:all 0.3s;}
+.side-social a:hover{border-color:var(--gold);color:var(--gold);}
+.side-social svg{width:14px;height:14px;}
+
+/* ─ HERO ─ */
+#hero{min-height:100vh;display:flex;align-items:center;background:var(--off-white);padding:calc(var(--nav-h) + 60px) 5% 80px;position:relative;overflow:hidden;}
+.hero-bg-shape{position:absolute;top:-20%;right:-10%;width:600px;height:600px;background:radial-gradient(ellipse,rgba(173,123,73,0.08) 0%,transparent 70%);pointer-events:none;}
+.hero-bg-line{position:absolute;bottom:0;left:0;right:0;height:1px;background:var(--border);}
+.hero-inner{display:grid;grid-template-columns:1fr 1fr;gap:80px;align-items:center;max-width:1200px;margin:0 auto;width:100%;}
+.hero-text .section-label{margin-bottom:8px;}
+.hero-title{margin-bottom:20px;}
+.hero-subtitle{font-size:1.05rem;max-width:480px;margin-bottom:8px;color:var(--gray);}
+.hero-micro{font-size:0.78rem;color:var(--gray-light);font-style:italic;margin-bottom:36px;}
+.hero-btns{display:flex;gap:12px;flex-wrap:wrap;margin-bottom:40px;}
+.hero-trust{display:flex;align-items:center;gap:20px;padding-top:24px;border-top:1px solid var(--border);}
+.trust-item{display:flex;align-items:center;gap:8px;}
+.trust-dot{width:6px;height:6px;background:var(--gold);border-radius:50%;flex-shrink:0;}
+.trust-text{font-size:0.72rem;font-weight:600;letter-spacing:0.08em;text-transform:uppercase;color:var(--gray);}
+
+/* ─ HERO FORM ─ */
+.hero-form-wrap{background:var(--white);border:1px solid var(--border);padding:40px;box-shadow:0 8px 40px var(--shadow);position:relative;}
+.hero-form-wrap::before{content:'';position:absolute;top:0;left:0;right:0;height:3px;background:var(--gold);}
+.hero-form-tag{font-size:10px;font-weight:700;letter-spacing:0.2em;text-transform:uppercase;color:var(--gold);margin-bottom:12px;}
+.hero-form-wrap h3{font-size:1.6rem;margin-bottom:6px;}
+.hero-form-wrap > p{font-size:0.85rem;margin-bottom:28px;color:var(--gray);}
+.form-group{margin-bottom:14px;}
+.form-group input,.form-group select{width:100%;padding:13px 16px;border:1.5px solid rgba(173,123,73,0.25);background:var(--off-white);font-family:var(--font-body);font-size:0.88rem;color:var(--dark);outline:none;transition:border-color 0.3s;-webkit-appearance:none;border-radius:0;}
+.form-group input::placeholder{color:var(--gray-light);}
+.form-group input:focus{border-color:var(--gold);background:var(--white);}
+.form-note{font-size:0.72rem;color:var(--gray-light);text-align:center;margin-top:12px;}
+.form-note span{color:var(--gold);}
+@media(max-width:900px){
+  .hero-inner{grid-template-columns:1fr;gap:48px;}
+  .hero-text{text-align:center;}
+  .hero-subtitle{max-width:100%;margin-left:auto;margin-right:auto;}
+  .hero-btns{justify-content:center;}
+  .hero-trust{justify-content:center;}
+  .gold-line{margin-left:auto;margin-right:auto;}
+}
+
+/* ─ SOCIAL PROOF BAR ─ */
+#proof-bar{background:var(--dark);padding:18px 5%;overflow:hidden;}
+.proof-scroll{display:flex;gap:60px;animation:scrollProof 25s linear infinite;white-space:nowrap;width:max-content;}
+@keyframes scrollProof{from{transform:translateX(0)}to{transform:translateX(-50%)}}
+.proof-item{display:flex;align-items:center;gap:10px;flex-shrink:0;}
+.proof-dot{width:4px;height:4px;background:var(--gold);border-radius:50%;}
+.proof-text{font-size:11px;font-weight:600;letter-spacing:0.15em;text-transform:uppercase;color:rgba(244,242,242,0.6);}
+.proof-text span{color:var(--gold);}
+
+/* ─ PILLARS ─ */
+#pillars{background:var(--white);border-top:1px solid var(--border);border-bottom:1px solid var(--border);}
+.pillars-grid{display:grid;grid-template-columns:repeat(4,1fr);}
+.pillar{padding:44px 32px;border-right:1px solid var(--border);position:relative;transition:background 0.3s;}
+.pillar:last-child{border-right:none;}
+.pillar:hover{background:var(--gold-bg);}
+.pillar::before{content:'';position:absolute;top:0;left:0;right:0;height:2px;background:var(--gold);transform:scaleX(0);transition:transform 0.4s;}
+.pillar:hover::before{transform:scaleX(1);}
+.pillar-num{font-family:var(--font-display);font-size:2.5rem;font-weight:300;color:rgba(173,123,73,0.2);line-height:1;margin-bottom:14px;}
+.pillar h4{font-size:0.95rem;font-weight:700;font-family:var(--font-body);letter-spacing:0.04em;margin-bottom:8px;color:var(--dark);}
+.pillar p{font-size:0.82rem;line-height:1.65;}
+@media(max-width:768px){.pillars-grid{grid-template-columns:repeat(2,1fr);}.pillar:nth-child(2){border-right:none;}.pillar:nth-child(3){border-top:1px solid var(--border);}.pillar:nth-child(4){border-top:1px solid var(--border);border-right:none;}}
+@media(max-width:480px){.pillars-grid{grid-template-columns:1fr;}.pillar{border-right:none;border-top:1px solid var(--border);}.pillar:first-child{border-top:none;}}
+
+/* ─ SECTIONS ─ */
+section{padding:100px 5%;}
+.section-inner{max-width:1100px;margin:0 auto;}
+
+/* ─ ABOUT ─ */
+#about{background:var(--off-white);}
+.about-grid{display:grid;grid-template-columns:1fr 1fr;gap:80px;align-items:start;}
+.about-img-wrap{position:relative;}
+.about-img-main{width:100%;aspect-ratio:3/4;object-fit:cover;object-position:top center;}
+.about-img-accent{position:absolute;bottom:-30px;right:-30px;width:52%;aspect-ratio:1;object-fit:cover;object-position:top center;border:4px solid var(--off-white);}
+.about-gold-accent{position:absolute;top:32px;left:-12px;width:5px;height:72px;background:var(--gold);}
+.about-text{}
+.about-text h2{margin-bottom:20px;}
+.about-text p{margin-bottom:16px;}
+.about-why{margin-top:32px;padding-top:28px;border-top:1px solid var(--border);}
+.about-why-label{font-size:10px;font-weight:700;letter-spacing:0.25em;text-transform:uppercase;color:var(--gold);margin-bottom:18px;display:block;}
+.about-why-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;}
+.about-why-block h5{font-family:var(--font-display);font-size:1rem;color:var(--dark);margin-bottom:6px;}
+.about-why-block p{font-size:0.8rem;line-height:1.65;}
+.about-qual{display:flex;flex-direction:column;gap:0;margin-top:32px;border:1px solid var(--border);}
+.qual-item{display:flex;align-items:flex-start;gap:16px;padding:20px 24px;border-bottom:1px solid var(--border);transition:background 0.3s;}
+.qual-item:last-child{border-bottom:none;}
+.qual-item:hover{background:var(--gold-bg);}
+.qual-icon{width:32px;height:32px;background:var(--gold);display:flex;align-items:center;justify-content:center;flex-shrink:0;font-size:0.7rem;color:#fff;font-weight:700;}
+.qual-text h5{font-size:0.9rem;font-weight:700;color:var(--dark);margin-bottom:3px;}
+.qual-text p{font-size:0.8rem;line-height:1.6;}
+@media(max-width:900px){.about-grid{grid-template-columns:1fr;gap:48px;}.about-img-accent{right:0;}.about-img-wrap{padding-bottom:40px;}.about-why-grid{grid-template-columns:1fr;}}
+
+/* ─ SERVICES ─ */
+#services{background:var(--white);}
+.services-header{text-align:center;max-width:620px;margin:0 auto 64px;}
+.services-header p{margin-top:12px;font-size:1rem;}
+.services-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:3px;max-width:900px;margin:0 auto;}
+.service-card{background:var(--off-white);padding:52px 44px;position:relative;transition:all 0.35s ease;border:1px solid transparent;}
+.service-card::before{content:'';position:absolute;top:0;left:0;right:0;height:3px;background:transparent;transition:background 0.3s;}
+.service-card:hover{background:var(--white);border-color:var(--border);box-shadow:0 8px 32px var(--shadow);transform:translateY(-4px);}
+.service-card:hover::before{background:var(--gold);}
+.service-card.featured{background:var(--gold);color:#fff;grid-column:1/-1;}
+.service-card.featured p,.service-card.featured .service-tag{color:rgba(255,255,255,0.8);}
+.service-card.featured h3{color:#fff;}
+.service-card.featured::before{background:var(--gold-dark);}
+.service-card.featured:hover{background:var(--gold-dark);transform:translateY(-4px);}
+.service-tag{font-size:10px;font-weight:700;letter-spacing:0.2em;text-transform:uppercase;color:var(--gold);margin-bottom:16px;display:block;}
+.service-card.featured .service-tag{color:rgba(255,255,255,0.75);}
+.service-badge{position:absolute;top:20px;right:20px;background:var(--dark);color:#fff;font-size:9px;font-weight:700;letter-spacing:0.15em;text-transform:uppercase;padding:5px 10px;}
+.service-card h3{margin-bottom:14px;}
+.service-card p{margin-bottom:12px;font-size:0.9rem;line-height:1.75;}
+.svc-for{font-size:0.8rem;color:var(--gray-light);margin-bottom:28px !important;}
+.svc-for span{color:var(--gold);font-weight:600;}
+.service-card.featured .svc-for span{color:rgba(255,255,255,0.9);}
+.service-link{display:inline-flex;align-items:center;gap:8px;font-size:11px;font-weight:700;letter-spacing:0.15em;text-transform:uppercase;color:var(--gold);transition:gap 0.3s;position:relative;z-index:5;cursor:pointer;}
+.service-card.featured .service-link{color:#fff;}
+.service-link::after{content:'→';}
+.service-link:hover{gap:14px;}
+@media(max-width:768px){.services-grid{grid-template-columns:1fr;}.service-card.featured{grid-column:auto;}}
+
+/* ─ QUOTE ─ */
+#philosophy{background:var(--gold);padding:80px 5%;text-align:center;}
+#philosophy blockquote{font-family:var(--font-display);font-size:clamp(1.4rem,2.5vw,2.2rem);font-weight:400;font-style:italic;color:#fff;max-width:760px;margin:0 auto 24px;line-height:1.55;}
+.quote-attr{display:flex;align-items:center;justify-content:center;gap:14px;}
+.quote-attr-line{width:36px;height:1px;background:rgba(255,255,255,0.5);}
+.quote-attr span{font-size:11px;font-weight:600;letter-spacing:0.2em;text-transform:uppercase;color:rgba(255,255,255,0.8);}
+
+/* ─ PROCESS ─ */
+#process{background:var(--off-white);}
+.process-header{max-width:520px;margin-bottom:64px;}
+.process-intro{font-size:1rem;margin-top:8px;margin-bottom:0;}
+.steps{max-width:760px;}
+.step{display:grid;grid-template-columns:64px 1fr;gap:28px;padding:32px 0;border-bottom:1px solid var(--border);position:relative;transition:all 0.3s;}
+.step:first-child{border-top:1px solid var(--border);}
+.step::before{content:'';position:absolute;left:0;top:0;bottom:0;width:3px;background:var(--gold);transform:scaleY(0);transition:transform 0.4s;transform-origin:top;}
+.step:hover::before{transform:scaleY(1);}
+.step:hover{padding-left:16px;}
+.step-num{font-family:var(--font-display);font-size:3rem;font-weight:300;color:rgba(173,123,73,0.25);line-height:1;transition:color 0.3s;}
+.step:hover .step-num{color:rgba(173,123,73,0.55);}
+.step h4{font-size:1.2rem;font-weight:600;color:var(--dark);margin-bottom:6px;font-family:var(--font-display);}
+.step p{font-size:0.88rem;line-height:1.75;}
+
+/* ─ COMPROMISOS ─ */
+#compromiso{background:var(--white);}
+.compromiso-header{text-align:center;max-width:600px;margin:0 auto 56px;}
+.compromisos-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:3px;max-width:880px;margin:0 auto;}
+.compromiso-block{background:var(--off-white);padding:36px;border-left:3px solid var(--border);transition:all 0.3s;}
+.compromiso-block:hover{border-left-color:var(--gold);background:var(--gold-bg);}
+.compromiso-block h4{font-family:var(--font-display);font-size:1.2rem;color:var(--dark);margin-bottom:8px;}
+.compromiso-block p{font-size:0.85rem;line-height:1.75;}
+@media(max-width:600px){.compromisos-grid{grid-template-columns:1fr;}}
+
+/* ─ ALINEACION ─ */
+#alineacion{background:var(--off-white);}
+.alineacion-header{text-align:center;max-width:620px;margin:0 auto 52px;}
+.alineacion-grid{display:grid;grid-template-columns:1fr 1fr;gap:3px;max-width:900px;margin:0 auto;}
+.alin-col{padding:44px;border:1px solid var(--border);background:var(--white);}
+.alin-col.yes{border-top:3px solid var(--gold);}
+.alin-col.no{border-top:3px solid var(--off-white-2);}
+.alin-col h4{font-family:var(--font-display);font-size:1.4rem;color:var(--dark);margin-bottom:20px;}
+.alin-col.no h4{color:var(--gray-light);}
+.alin-list{list-style:none;display:flex;flex-direction:column;gap:12px;}
+.alin-list li{display:flex;gap:10px;font-size:0.87rem;line-height:1.6;color:var(--gray);}
+.alin-list li .check{color:var(--gold);flex-shrink:0;font-weight:700;}
+.alin-col.no .alin-list li{color:var(--gray-light);}
+@media(max-width:680px){.alineacion-grid{grid-template-columns:1fr;}}
+
+/* ─ RECURSOS ─ */
+#recursos{background:var(--white);}
+.recursos-header{text-align:center;max-width:620px;margin:0 auto 52px;}
+.recursos-grid{display:grid;grid-template-columns:1fr 1fr;gap:3px;max-width:860px;margin:0 auto;}
+.recurso-card{background:var(--off-white);padding:48px 40px;border-top:3px solid var(--border);transition:all 0.35s;}
+.recurso-card:hover{border-top-color:var(--gold);box-shadow:0 8px 32px var(--shadow);}
+.recurso-tag{font-size:10px;font-weight:700;letter-spacing:0.2em;text-transform:uppercase;color:var(--gold);margin-bottom:14px;display:block;}
+.recurso-card h3{margin-bottom:14px;font-size:1.5rem;}
+.recurso-card p{font-size:0.88rem;line-height:1.8;margin-bottom:28px;}
+.recurso-note{font-size:0.72rem;color:var(--gray-light);margin-top:14px;font-style:italic;}
+@media(max-width:640px){.recursos-grid{grid-template-columns:1fr;}}
+
+/* ─ FAQ ─ */
+#faq{background:var(--off-white);}
+.faq-header{text-align:center;max-width:560px;margin:0 auto 56px;}
+.faq-list{max-width:760px;margin:0 auto;}
+.faq-item{border-bottom:1px solid var(--border);}
+.faq-q{display:flex;justify-content:space-between;align-items:center;padding:24px 0;cursor:pointer;gap:16px;}
+.faq-q h4{font-size:1rem;font-weight:600;color:var(--dark);font-family:var(--font-display);transition:color 0.3s;}
+.faq-q:hover h4{color:var(--gold);}
+.faq-icon{width:26px;height:26px;min-width:26px;border:1.5px solid var(--border);display:flex;align-items:center;justify-content:center;font-size:0.9rem;color:var(--gold);transition:all 0.3s;}
+.faq-item.open .faq-icon{background:var(--gold);color:#fff;border-color:var(--gold);transform:rotate(45deg);}
+.faq-a{max-height:0;overflow:hidden;transition:max-height 0.4s ease,padding 0.3s;}
+.faq-item.open .faq-a{max-height:300px;}
+.faq-a p{padding-bottom:24px;font-size:0.9rem;line-height:1.85;color:var(--gray);}
+
+/* ─ GALLERY ─ */
+#gallery{background:var(--white);padding:60px 0;}
+.gallery-slider{display:flex;gap:10px;overflow-x:auto;scroll-snap-type:x mandatory;scroll-behavior:smooth;-webkit-overflow-scrolling:touch;padding:0 5%;cursor:grab;scrollbar-width:none;-ms-overflow-style:none;}
+.gallery-slider::-webkit-scrollbar{display:none;}
+.gallery-slider:active{cursor:grabbing;}
+.gallery-img{flex:0 0 calc(33.333% - 8px);min-width:260px;aspect-ratio:3/4;object-fit:cover;object-position:top center;scroll-snap-align:start;transition:opacity 0.4s;filter:none;}
+.gallery-img:hover{opacity:0.85;}
+.gallery-nav{display:flex;justify-content:center;align-items:center;gap:14px;margin-top:24px;}
+.gallery-arrow{width:40px;height:40px;border:1.5px solid var(--border);background:none;color:var(--gold);font-size:1rem;cursor:pointer;display:flex;align-items:center;justify-content:center;transition:all 0.3s;}
+.gallery-arrow:hover{background:var(--gold);color:#fff;border-color:var(--gold);}
+.gallery-dots{display:flex;gap:6px;}
+.gallery-dot{width:6px;height:6px;border-radius:50%;background:var(--border);cursor:pointer;border:none;transition:all 0.3s;}
+.gallery-dot.active{background:var(--gold);width:18px;border-radius:3px;}
+@media(max-width:768px){.gallery-img{flex:0 0 80%;}}
+
+/* ─ CTA ─ */
+#cta{background:var(--dark);padding:120px 5%;text-align:center;}
+.cta-bg-shape{position:absolute;inset:0;background:radial-gradient(ellipse at 50% 100%,rgba(173,123,73,0.12) 0%,transparent 70%);pointer-events:none;}
+#cta{position:relative;}
+#cta .section-label{color:var(--gold);}
+#cta .gold-line{background:var(--gold);}
+#cta h2{color:#fff;margin-bottom:16px;}
+#cta p{color:rgba(244,242,242,0.65);max-width:520px;margin:0 auto 16px;font-size:1rem;}
+.cta-micro{font-size:0.78rem !important;color:rgba(244,242,242,0.35) !important;font-style:italic;margin-top:-8px !important;margin-bottom:36px !important;}
+.cta-btns{display:flex;justify-content:center;gap:12px;flex-wrap:wrap;}
+
+/* ─ FOOTER ─ */
+footer{background:var(--dark-2);border-top:1px solid rgba(173,123,73,0.15);padding:72px 5% 36px;}
+.footer-grid{display:grid;grid-template-columns:2fr 1fr 1fr 1fr;gap:52px;margin-bottom:52px;}
+.footer-logo img{height:36px;width:auto;margin-bottom:18px;mix-blend-mode:screen;}
+.footer-desc{font-size:0.83rem;color:rgba(244,242,242,0.5);line-height:1.8;margin-bottom:22px;max-width:260px;}
+.footer-tagline{font-size:10px;letter-spacing:0.2em;text-transform:uppercase;color:var(--gold);font-weight:700;}
+.footer-col h5{font-size:10px;letter-spacing:0.25em;text-transform:uppercase;font-weight:700;color:rgba(244,242,242,0.35);margin-bottom:20px;font-family:var(--font-body);}
+.footer-col ul{list-style:none;display:flex;flex-direction:column;gap:10px;}
+.footer-col ul li a{font-size:0.85rem;color:rgba(244,242,242,0.55);transition:color 0.3s;}
+.footer-col ul li a:hover{color:var(--gold);}
+.footer-social-row{display:flex;gap:8px;flex-wrap:wrap;}
+.soc-btn{width:34px;height:34px;border:1px solid rgba(173,123,73,0.2);display:flex;align-items:center;justify-content:center;color:rgba(244,242,242,0.4);transition:all 0.3s;}
+.soc-btn:hover{background:var(--gold);color:#fff;border-color:var(--gold);}
+.soc-btn svg{width:13px;height:13px;fill:currentColor;}
+.footer-bottom{padding-top:36px;border-top:1px solid rgba(173,123,73,0.1);}
+.footer-disclaimer{font-size:0.75rem;color:rgba(244,242,242,0.3);line-height:1.7;margin-bottom:16px;max-width:900px;}
+.footer-disclaimer strong{color:rgba(244,242,242,0.5);}
+.footer-copy{font-size:0.75rem;color:rgba(244,242,242,0.2);}
+@media(max-width:900px){.footer-grid{grid-template-columns:1fr 1fr;gap:36px;}}
+@media(max-width:560px){.footer-grid{grid-template-columns:1fr;}}
+
+/* ─ MODALS ─ */
+.modal-overlay{position:fixed;inset:0;z-index:2000;background:rgba(17,17,17,0.75);backdrop-filter:blur(6px);display:flex;align-items:center;justify-content:center;opacity:0;pointer-events:none;transition:opacity 0.35s ease;padding:20px;}
+.modal-overlay.active{opacity:1;pointer-events:all;}
+.modal{background:var(--white);border-top:4px solid var(--gold);max-width:760px;width:100%;max-height:90vh;overflow-y:auto;position:relative;transform:translateY(24px);transition:transform 0.35s ease;}
+.modal-overlay.active .modal{transform:translateY(0);}
+.modal-header{padding:44px 48px 28px;border-bottom:1px solid var(--border);position:relative;}
+.modal-tag{font-size:10px;font-weight:700;letter-spacing:0.2em;text-transform:uppercase;color:var(--gold);margin-bottom:14px;display:block;}
+.modal-header h2{font-size:clamp(1.6rem,3vw,2.4rem);color:var(--dark);}
+.modal-close{position:absolute;top:20px;right:20px;width:32px;height:32px;border:1.5px solid var(--border);background:none;color:var(--dark);cursor:pointer;display:flex;align-items:center;justify-content:center;font-size:1rem;transition:all 0.3s;}
+.modal-close:hover{border-color:var(--gold);color:var(--gold);}
+.modal-body{padding:36px 48px 48px;}
+.modal-intro{font-family:var(--font-display);font-size:1.15rem;font-style:italic;color:var(--gray);margin-bottom:32px;line-height:1.65;}
+.modal-section{margin-bottom:28px;}
+.modal-section-title{font-size:10px;letter-spacing:0.25em;text-transform:uppercase;font-weight:700;color:var(--gold);margin-bottom:12px;display:block;}
+.modal-section p{font-size:0.9rem;line-height:1.85;}
+.modal-points{list-style:none;display:flex;flex-direction:column;gap:10px;}
+.modal-points li{display:flex;gap:12px;font-size:0.88rem;color:var(--gray);line-height:1.65;}
+.modal-points li::before{content:'◆';color:var(--gold);font-size:0.55rem;margin-top:6px;flex-shrink:0;}
+.modal-phases{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;}
+.modal-phase{background:var(--off-white);border:1px solid var(--border);padding:20px;text-align:center;border-top:2px solid var(--gold);}
+.modal-phase-num{font-family:var(--font-display);font-size:2rem;font-weight:300;color:rgba(173,123,73,0.35);line-height:1;margin-bottom:6px;}
+.modal-phase h4{font-size:0.9rem;color:var(--dark);margin-bottom:6px;}
+.modal-phase p{font-size:0.78rem;}
+.modal-no{background:rgba(173,123,73,0.05);border:1px solid var(--border);padding:20px 24px;margin-top:6px;}
+.modal-cta-area{margin-top:36px;padding-top:32px;border-top:1px solid var(--border);text-align:center;}
+.modal-cta-area p{margin-bottom:20px;font-size:0.95rem;}
+@media(max-width:600px){.modal-header,.modal-body{padding-left:24px;padding-right:24px;}.modal-phases{grid-template-columns:1fr;}}
+
+/* ─ STICKY CTA BAR ─ */
+.sticky-cta{position:fixed;bottom:0;left:0;right:0;z-index:950;background:var(--dark);border-top:2px solid var(--gold);padding:12px 5%;display:flex;align-items:center;justify-content:space-between;gap:16px;transform:translateY(100%);transition:transform 0.4s ease;}
+.sticky-cta.show{transform:translateY(0);}
+.sticky-cta p{font-size:0.85rem;color:rgba(244,242,242,0.75);flex:1;display:none;}
+@media(min-width:600px){.sticky-cta p{display:block;}}
+
+/* ─ WHATSAPP ─ */
+.wa-float{position:fixed;bottom:80px;right:24px;z-index:900;width:52px;height:52px;background:#25D366;border-radius:50%;display:flex;align-items:center;justify-content:center;box-shadow:0 4px 20px rgba(37,211,102,0.45);transition:all 0.3s;}
+.wa-float:hover{transform:scale(1.1);}
+.wa-float svg{width:26px;height:26px;fill:#fff;}
+@media(max-width:600px){.wa-float{bottom:76px;right:16px;}}
+
+/* ─ REVEAL ─ */
+.reveal{opacity:1;transform:translateY(0);transition:opacity 0.7s ease,transform 0.7s ease;}
+.reveal.hidden{opacity:0;transform:translateY(24px);}
+.reveal.visible{opacity:1;transform:translateY(0);}
+.delay-1{transition-delay:0.1s;}
+.delay-2{transition-delay:0.2s;}
+.delay-3{transition-delay:0.3s;}
+
+/* ─ MOBILE OPTIMIZATIONS ─ */
+@media(max-width:480px){
+  section{padding:72px 5%;}
+  h1{font-size:2.4rem;}
+  h2{font-size:1.9rem;}
+  .btn{padding:13px 24px;font-size:11px;}
+  .hero-form-wrap{padding:28px 24px;}
+}
+
+  /* ─── LOGO COMBO ─── */
+  .logo-combo { display:flex; align-items:center; gap:10px; text-decoration:none; }
+  .logo-isotipo { height:36px; width:auto; transition:height 0.3s; }
+  nav.scrolled .logo-isotipo { height:30px; }
+  .logo-text { display:flex; flex-direction:column; gap:1px; }
+  .logo-name { font-family:var(--font-body); font-size:0.82rem; font-weight:700; letter-spacing:0.18em; color:var(--dark); line-height:1; }
+  .logo-sub { font-family:var(--font-body); font-size:0.52rem; font-weight:600; letter-spacing:0.2em; color:var(--gold); line-height:1; }
+  .logo-combo:hover .logo-name { color:var(--gold); }
+
+  /* ─── SOCIAL BRAND COLORS ─── */
+  .soc-btn { transition: all 0.3s; }
+  .soc-btn[title="Instagram"]:hover { background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%); border-color:transparent; color:#fff; }
+  .soc-btn[title="YouTube"]:hover { background:#FF0000; border-color:#FF0000; color:#fff; }
+  .soc-btn[title="Facebook"]:hover { background:#1877F2; border-color:#1877F2; color:#fff; }
+  .soc-btn[title="TikTok"]:hover { background:#010101; border-color:#010101; color:#69C9D0; }
+  .soc-btn[title="WhatsApp"]:hover { background:#25D366; border-color:#25D366; color:#fff; }
+  .soc-btn[title="LinkedIn"]:hover { background:#0A66C2; border-color:#0A66C2; color:#fff; }
+  .soc-btn[title="Threads"]:hover { background:#000; border-color:#000; color:#fff; }
+  .side-social .soc-btn[title="Instagram"]:hover { background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%); border-color:transparent; color:#fff; }
+  .side-social .soc-btn[title="YouTube"]:hover { background:#FF0000; border-color:#FF0000; color:#fff; }
+  .side-social .soc-btn[title="WhatsApp"]:hover { background:#25D366; border-color:#25D366; color:#fff; }
+
+</style>
+</head>
+<body>
+
+<!-- NAV -->
+<nav id="navbar">
+  <div class="nav-logo">
+    <a href="#hero" class="logo-combo">
+      <img src="isotipo.png" alt="NL" class="logo-isotipo"/>
+      <div class="logo-text">
+        <span class="logo-name">NIEVES</span>
+        <span class="logo-sub">LEGACY PARTNERS LLC</span>
+      </div>
+    </a>
+  </div>
+  <ul class="nav-links">
+    <li><a href="#about">Sobre William</a></li>
+    <li><a href="#services">Servicios</a></li>
+    <li><a href="#process">Proceso</a></li>
+    <li><a href="#faq">FAQ</a></li>
+  </ul>
+  <div class="nav-right">
+    <a href="https://access.nieveslegacypartners.com/widget/bookings/strategic-consultation-william" class="btn btn-gold" target="_blank" style="display:none;" id="nav-cta-btn">Agendar Llamada</a>
+    <button class="hamburger-btn" id="hamburgerBtn" aria-label="Menú">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</nav>
+
+<!-- SIDE OVERLAY -->
+<div class="side-overlay" id="sideOverlay" onclick="closePanel()"></div>
+
+<!-- SIDE PANEL -->
+<div class="side-panel" id="sidePanel">
+  <div class="side-panel-header">
+    <a href="#hero" class="logo-combo" onclick="closePanel()" style="text-decoration:none;">
+      <img src="isotipo.png" alt="NL" class="logo-isotipo" style="height:28px;"/>
+      <div class="logo-text">
+        <span class="logo-name" style="font-size:0.7rem;">NIEVES</span>
+        <span class="logo-sub" style="font-size:0.52rem;">LEGACY PARTNERS LLC</span>
+      </div>
+    </a>
+    <button class="side-close" onclick="closePanel()">✕</button>
+  </div>
+  <div class="side-panel-body">
+    <span class="side-section-label">Consultas</span>
+    <div class="side-links">
+      <a href="https://access.nieveslegacypartners.com/widget/bookings/strategic-consultation-william" class="side-link" target="_blank" onclick="closePanel()">
+        <div class="side-link-info">
+          <div class="side-link-title">Consulta Estratégica</div>
+          <div class="side-link-sub">Agenda tu llamada de descubrimiento</div>
+        </div>
+        <span class="side-link-arrow">→</span>
+      </a>
+    </div>
+    <span class="side-section-label">Programas</span>
+    <div class="side-links">
+      <a href="https://theclarityprogram.nieveslegacypartners.com" class="side-link" target="_blank" onclick="closePanel()">
+        <div class="side-link-info">
+          <div class="side-link-title">The Clarity Program</div>
+          <div class="side-link-sub">90 días · Coaching 1:1 con William</div>
+        </div>
+        <span class="side-link-arrow">→</span>
+      </a>
+    </div>
+    <span class="side-section-label">Recursos Educativos</span>
+    <div class="side-links">
+      <a href="https://webinars.nieveslegacypartners.com/" class="side-link" target="_blank" onclick="closePanel()">
+        <div class="side-link-info">
+          <div class="side-link-title">Live Webinar</div>
+          <div class="side-link-sub">Sesión en vivo con William Nieves</div>
+        </div>
+        <span class="side-link-arrow">→</span>
+      </a>
+      <a href="https://recorded.nieveslegacypartners.com/" class="side-link" target="_blank" onclick="closePanel()">
+        <div class="side-link-info">
+          <div class="side-link-title">Recorded Webinar</div>
+          <div class="side-link-sub">Accede a tu ritmo, cuando quieras</div>
+        </div>
+        <span class="side-link-arrow">→</span>
+      </a>
+    </div>
+  </div>
+  <div class="side-cta-area">
+    <p>¿Listo para el primer paso? Agenda una conversación sin compromiso.</p>
+    <a href="https://access.nieveslegacypartners.com/widget/bookings/strategic-consultation-william" class="btn btn-gold btn-arrow btn-full" target="_blank" onclick="closePanel()">Agendar Llamada de Descubrimiento</a>
+    <div class="side-social" style="margin-top:20px;">
+      <a href="https://www.instagram.com/williamnievesofficial" target="_blank" class="soc-btn" title="Instagram"><svg viewBox="0 0 24 24"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.052.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98C8.333 23.986 8.741 24 12 24c3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 100 12.324 6.162 6.162 0 000-12.324zM12 16a4 4 0 110-8 4 4 0 010 8zm6.406-11.845a1.44 1.44 0 100 2.881 1.44 1.44 0 000-2.881z"/></svg></a>
+      <a href="https://youtube.com/@nieves_legacy_partners" target="_blank" class="soc-btn" title="YouTube"><svg viewBox="0 0 24 24"><path d="M23.498 6.186a3.016 3.016 0 00-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 00.502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 002.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 002.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/></svg></a>
+      <a href="https://wa.me/19393349288" target="_blank" class="soc-btn" title="WhatsApp"><svg viewBox="0 0 24 24"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg></a>
+    </div>
+  </div>
+</div>
+
+<!-- HERO -->
+<section id="hero">
+  <div class="hero-bg-shape"></div>
+  <div class="hero-bg-line"></div>
+  <div class="hero-inner">
+    <div class="hero-text">
+      <span class="section-label">Acompañamiento Estratégico · Claridad · Legado Familiar</span>
+      <h1 class="hero-title">Construye lo que <span class="gold italic">trasciende.</span></h1>
+      <p class="hero-subtitle">Estrategias personalizadas para familias que desean ordenar su panorama financiero, construir dirección de largo plazo y tomar mejores decisiones para su futuro y su legado.</p>
+      <p class="hero-micro">Sin presión. Sin promesas vacías. Solo una conversación clara para evaluar el mejor próximo paso.</p>
+      <div class="hero-btns">
+        <a href="https://access.nieveslegacypartners.com/widget/bookings/strategic-consultation-william" class="btn btn-gold btn-arrow" target="_blank">Agendar Llamada de Descubrimiento</a>
+        <a href="#services" class="btn btn-outline">Ver Cómo Trabajamos</a>
+      </div>
+      <div class="hero-trust">
+        <div class="trust-item"><div class="trust-dot"></div><span class="trust-text">Acompañamiento 1:1</span></div>
+        <div class="trust-item"><div class="trust-dot"></div><span class="trust-text">Sin presión</span></div>
+        <div class="trust-item"><div class="trust-dot"></div><span class="trust-text">100% Virtual</span></div>
+      </div>
+    </div>
+    <div class="hero-form-wrap reveal">
+      <div class="hero-form-tag">¿Listo para dar el primer paso?</div>
+      <h3>Agenda tu Llamada de Descubrimiento</h3>
+      <p>Deja tu información y te contactamos para coordinar una conversación inicial sin compromiso.</p>
+      <div class="form-group">
+        <input type="text" id="lead-name" placeholder="Tu nombre completo" autocomplete="name"/>
+      </div>
+      <div class="form-group">
+        <input type="email" id="lead-email" placeholder="Tu correo electrónico" autocomplete="email"/>
+      </div>
+      <div class="form-group">
+        <input type="tel" id="lead-phone" placeholder="Tu teléfono / WhatsApp" autocomplete="tel"/>
+      </div>
+      <button class="btn btn-gold btn-full" onclick="submitLead()">Quiero Mi Llamada de Descubrimiento →</button>
+      <p class="form-note"><span>✓</span> Sin spam. Sin compromiso. Solo claridad.</p>
+    </div>
+  </div>
+</section>
+
+<!-- PROOF BAR -->
+<div id="proof-bar" aria-hidden="true">
+  <div class="proof-scroll">
+    <div class="proof-item"><div class="proof-dot"></div><span class="proof-text">Acompañamiento <span>1:1 Personalizado</span></span></div>
+    <div class="proof-item"><div class="proof-dot"></div><span class="proof-text">Proceso <span>100% Virtual</span></span></div>
+    <div class="proof-item"><div class="proof-dot"></div><span class="proof-text">Familias en <span>Puerto Rico y EE.UU.</span></span></div>
+    <div class="proof-item"><div class="proof-dot"></div><span class="proof-text">Sin <span>Presión Comercial</span></span></div>
+    <div class="proof-item"><div class="proof-dot"></div><span class="proof-text">Claridad · <span>Estructura · Legado</span></span></div>
+    <div class="proof-item"><div class="proof-dot"></div><span class="proof-text">William Nieves · <span>Fundador & CEO</span></span></div>
+    <!-- Duplicate for infinite scroll -->
+    <div class="proof-item"><div class="proof-dot"></div><span class="proof-text">Acompañamiento <span>1:1 Personalizado</span></span></div>
+    <div class="proof-item"><div class="proof-dot"></div><span class="proof-text">Proceso <span>100% Virtual</span></span></div>
+    <div class="proof-item"><div class="proof-dot"></div><span class="proof-text">Familias en <span>Puerto Rico y EE.UU.</span></span></div>
+    <div class="proof-item"><div class="proof-dot"></div><span class="proof-text">Sin <span>Presión Comercial</span></span></div>
+    <div class="proof-item"><div class="proof-dot"></div><span class="proof-text">Claridad · <span>Estructura · Legado</span></span></div>
+    <div class="proof-item"><div class="proof-dot"></div><span class="proof-text">William Nieves · <span>Fundador & CEO</span></span></div>
+  </div>
+</div>
+
+<!-- PILLARS -->
+<div id="pillars">
+  <div class="pillars-grid">
+    <div class="pillar reveal"><div class="pillar-num">01</div><h4>Dirección Estratégica</h4><p>No improvisamos. Diseñamos procesos con intención, claridad y visión de largo plazo.</p></div>
+    <div class="pillar reveal delay-1"><div class="pillar-num">02</div><h4>Acompañamiento Personal</h4><p>Cada familia recibe orientación directa y alineada con su realidad. Sin soluciones genéricas.</p></div>
+    <div class="pillar reveal delay-2"><div class="pillar-num">03</div><h4>Visión de Legado</h4><p>Construimos pensando más allá del presente: estabilidad, continuidad y decisiones con propósito.</p></div>
+    <div class="pillar reveal delay-3"><div class="pillar-num">04</div><h4>Transparencia Total</h4><p>Sin presión comercial. Sin letra pequeña. Con claridad sobre el proceso y los próximos pasos.</p></div>
+  </div>
+</div>
+
+<!-- ABOUT -->
+<section id="about">
+  <div class="section-inner">
+    <div class="about-grid">
+      <div class="about-img-wrap reveal">
+        <div class="about-gold-accent"></div>
+        <img class="about-img-main" src="photo1.jpg" alt="William Nieves" loading="lazy"/>
+        <img class="about-img-accent" src="photo2.jpg" alt="William Nieves" loading="lazy"/>
+      </div>
+      <div class="about-text reveal delay-2">
+        <span class="section-label">Sobre la Firma</span>
+        <div class="gold-line"></div>
+        <h2>Dirección con <span class="gold italic">propósito.</span></h2>
+        <p>Nieves Legacy Partners LLC nace de una convicción profunda: las familias trabajadoras merecen acceso a orientación estratégica de alto nivel, presentada con claridad, respeto y visión de largo plazo.</p>
+        <p>No creemos en soluciones genéricas ni en decisiones improvisadas. Nuestro trabajo se enfoca en ayudar a cada familia a entender mejor su panorama actual, identificar prioridades y construir una dirección más clara para su futuro.</p>
+        <p>William Nieves fundó esta firma con un propósito claro: acompañar a familias con visión a tomar decisiones más estructuradas, proteger lo que han construido y avanzar con mayor intención hacia un legado que trascienda.</p>
+        <div class="about-why">
+          <span class="about-why-label">Por qué existe Nieves Legacy Partners</span>
+          <div class="about-why-grid">
+            <div class="about-why-block"><h5>Claridad antes de decidir</h5><p>Ayudamos a las familias a entender dónde están y cuál podría ser su próximo paso con mayor dirección.</p></div>
+            <div class="about-why-block"><h5>Estructura antes de improvisar</h5><p>Construimos procesos organizados, personalizados y alineados con metas reales.</p></div>
+            <div class="about-why-block"><h5>Legado antes que ruido</h5><p>Trabajamos con familias que valoran la estabilidad y una visión más profunda del futuro.</p></div>
+          </div>
+        </div>
+        <div class="about-qual">
+          <div class="qual-item"><div class="qual-icon">01</div><div class="qual-text"><h5>Acompañamiento 1:1</h5><p>Dirección personalizada con William Nieves en cada etapa del proceso.</p></div></div>
+          <div class="qual-item"><div class="qual-icon">02</div><div class="qual-text"><h5>Proceso Personalizado</h5><p>Cada estrategia se trabaja según tus prioridades, metas y visión de largo plazo.</p></div></div>
+          <div class="qual-item"><div class="qual-icon">03</div><div class="qual-text"><h5>Claridad sin Presión</h5><p>La conversación inicial existe para evaluar alineación, no para empujar una decisión.</p></div></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- VIDEO / WILLIAM LETTER -->
+<section id="video-section" style="background:var(--white);padding:80px 5%;">
+  <div style="max-width:800px;margin:0 auto;text-align:center;" class="reveal">
+    <span class="section-label">Sobre William</span>
+    <div class="gold-line center"></div>
+    <h2>La visión detrás de <span class="gold italic">la firma.</span></h2>
+    <div style="background:var(--off-white);border:1px solid var(--border);border-top:3px solid var(--gold);padding:48px;margin-top:40px;text-align:left;">
+      <p style="font-family:var(--font-display);font-size:1.1rem;font-style:italic;color:var(--gray);line-height:1.85;margin-bottom:28px;">"Fundé Nieves Legacy Partners porque he visto demasiadas familias trabajar duro sin una estructura clara para proteger lo que han construido y avanzar con dirección. Esta firma existe para acompañar ese proceso con seriedad, claridad y visión de largo plazo.<br><br>Mi compromiso no es prometer resultados vacíos. Mi compromiso es ayudarte a mirar tu panorama con más claridad, entender tus prioridades y construir un camino más ordenado hacia el futuro que deseas para ti y tu familia."</p>
+      <div style="border-top:1px solid var(--border);padding-top:20px;">
+        <div style="width:36px;height:2px;background:var(--gold);margin-bottom:10px;"></div>
+        <p style="font-family:var(--font-display);font-size:1.1rem;font-weight:600;color:var(--dark);margin-bottom:2px;">William Nieves</p>
+        <p style="font-size:0.75rem;letter-spacing:0.15em;text-transform:uppercase;color:var(--gold);font-weight:700;">Fundador &amp; CEO — Nieves Legacy Partners LLC</p>
+      </div>
+    </div>
+    <!-- Video embed space -->
+    <div id="video-embed" style="display:none;margin-top:24px;position:relative;aspect-ratio:16/9;">
+      <iframe src="https://www.youtube.com/embed/TU_ID_AQUI?rel=0&modestbranding=1" title="William Nieves" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="position:absolute;inset:0;width:100%;height:100%;border:none;"></iframe>
+    </div>
+    <div style="margin-top:32px;">
+      <a href="https://access.nieveslegacypartners.com/widget/bookings/strategic-consultation-william" class="btn btn-gold btn-arrow" target="_blank">Agendar Llamada de Descubrimiento</a>
+    </div>
+  </div>
+</section>
+
+<!-- SERVICES -->
+<section id="services" style="background:var(--off-white);">
+  <div class="section-inner">
+    <div class="services-header reveal">
+      <span class="section-label">Nuestros Servicios</span>
+      <div class="gold-line center"></div>
+      <h2>Estrategias diseñadas para dar <span class="gold italic">claridad, estructura y dirección.</span></h2>
+      <p>Cada servicio existe para acompañar una etapa distinta del proceso. Algunas familias necesitan claridad antes de construir. Otras ya están listas para una estrategia más profunda.</p>
+    </div>
+    <div class="services-grid">
+      <div class="service-card featured reveal">
+        <div class="service-badge">Programa Insignia</div>
+        <span class="service-tag">The Clarity Program</span>
+        <h3>Claridad primero.<br>Dirección después.</h3>
+        <p>Un proceso de 90 días de coaching 1:1 diseñado para ayudar a familias a ordenar su panorama financiero, identificar prioridades y construir una base más clara antes de tomar decisiones mayores.</p>
+        <p class="svc-for"><span>Para quién:</span> Personas o familias que necesitan más orden, dirección y estructura antes de avanzar hacia metas de largo plazo.</p>
+        <a href="https://theclarityprogram.nieveslegacypartners.com" class="service-link" target="_blank">Conocer The Clarity Program</a>
+      </div>
+      <div class="service-card reveal delay-1">
+        <span class="service-tag">Llamada de Descubrimiento</span>
+        <h3>La primera conversación.</h3>
+        <p>Una conversación inicial, sin presión y sin compromiso, para entender tu situación, tus metas y evaluar si existe alineación con el acompañamiento que ofrece la firma.</p>
+        <p class="svc-for"><span>Para quién:</span> Quienes desean saber cuál podría ser el próximo paso correcto antes de tomar una decisión.</p>
+        <a href="https://access.nieveslegacypartners.com/widget/bookings/strategic-consultation-william" class="service-link" target="_blank">Agendar Llamada de Descubrimiento</a>
+      </div>
+      <div class="service-card reveal delay-2">
+        <span class="service-tag">Live Webinar</span>
+        <h3>Una conversación en vivo sobre claridad financiera.</h3>
+        <p>Experiencia educativa donde William Nieves comparte la filosofía detrás de construir con dirección, evitar la improvisación y pensar en el futuro con mayor intención.</p>
+        <p class="svc-for"><span>Recurso:</span> Educativo. No constituye asesoría financiera.</p>
+        <a href="https://webinars.nieveslegacypartners.com/" class="service-link" target="_blank">Ver Live Webinar</a>
+      </div>
+      <div class="service-card reveal delay-2">
+        <span class="service-tag">Recorded Webinar</span>
+        <h3>Accede a tu ritmo, cuando quieras.</h3>
+        <p>Conoce la visión de Nieves Legacy Partners y descubre por qué la claridad, la estructura y la dirección son esenciales antes de tomar decisiones importantes sobre el futuro familiar.</p>
+        <p class="svc-for"><span>Recurso:</span> Contenido educativo bajo demanda.</p>
+        <a href="https://recorded.nieveslegacypartners.com/" class="service-link" target="_blank">Ver Recorded Webinar</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- QUOTE -->
+<section id="philosophy">
+  <blockquote>"No estamos aquí para ofrecer soluciones genéricas ni promesas vacías. Estamos aquí para ayudar a las familias a construir con claridad, estructura y visión de largo plazo."</blockquote>
+  <div class="quote-attr">
+    <div class="quote-attr-line"></div>
+    <span>William Nieves — Fundador &amp; CEO</span>
+    <div class="quote-attr-line"></div>
+  </div>
+</section>
+
+<!-- PROCESS -->
+<section id="process">
+  <div class="section-inner">
+    <div class="process-header reveal">
+      <span class="section-label">Nuestro Proceso</span>
+      <div class="gold-line"></div>
+      <h2>Estructura, <span class="gold italic">no improvisación.</span></h2>
+      <p class="process-intro">Cada familia llega con una historia, una realidad y unas prioridades distintas. Por eso nuestro proceso está diseñado para avanzar con orden, claridad y responsabilidad.</p>
+    </div>
+    <div class="steps">
+      <div class="step reveal"><div class="step-num">01</div><div><h4>Descubrimiento</h4><p>Conversación inicial para conocer tu situación, entender tus metas y evaluar si existe alineación con el acompañamiento de la firma.</p></div></div>
+      <div class="step reveal delay-1"><div class="step-num">02</div><div><h4>Evaluación Estratégica</h4><p>Analizamos tu panorama general, tus prioridades, tus inquietudes y las áreas donde necesitas mayor claridad o estructura.</p></div></div>
+      <div class="step reveal delay-2"><div class="step-num">03</div><div><h4>Diseño de Dirección</h4><p>Construimos una dirección personalizada, alineada con tus metas, responsabilidades y visión de largo plazo.</p></div></div>
+      <div class="step reveal delay-3"><div class="step-num">04</div><div><h4>Activación</h4><p>Organizamos los próximos pasos del proceso con claridad sobre responsabilidades, prioridades y expectativas.</p></div></div>
+      <div class="step reveal"><div class="step-num">05</div><div><h4>Seguimiento</h4><p>Acompañamiento estratégico para revisar avances, ajustar el enfoque y mantener dirección conforme evoluciona tu realidad.</p></div></div>
+    </div>
+  </div>
+</section>
+
+<!-- COMPROMISO -->
+<section id="compromiso" style="background:var(--off-white);">
+  <div class="section-inner">
+    <div class="compromiso-header reveal">
+      <span class="section-label">Nuestro Compromiso</span>
+      <div class="gold-line center"></div>
+      <h2>Confianza y claridad <span class="gold italic">desde el primer paso.</span></h2>
+      <p>Trabajar con Nieves Legacy Partners no comienza con presión. Comienza con una conversación honesta y el compromiso de orientar cada paso con responsabilidad.</p>
+    </div>
+    <div class="compromisos-grid reveal">
+      <div class="compromiso-block"><h4>Sin presión comercial</h4><p>La primera conversación existe para entender tu situación, evaluar alineación y definir si este proceso tiene sentido para ti.</p></div>
+      <div class="compromiso-block"><h4>Proceso personalizado</h4><p>No usamos fórmulas genéricas. Cada familia tiene una realidad distinta, y el acompañamiento debe respetar esa realidad.</p></div>
+      <div class="compromiso-block"><h4>Límites claros</h4><p>Nuestro trabajo es estratégico, educativo y de acompañamiento. No sustituye asesoría financiera, legal, contributiva ni de inversión.</p></div>
+      <div class="compromiso-block"><h4>Acompañamiento con intención</h4><p>La meta es ayudarte a ganar claridad, estructura y dirección para tomar decisiones más alineadas con tu futuro.</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- ALINEACION -->
+<section id="alineacion" style="background:var(--white);">
+  <div class="section-inner">
+    <div class="alineacion-header reveal">
+      <span class="section-label">Alineación</span>
+      <div class="gold-line center"></div>
+      <h2>Este proceso <span class="gold italic">no es para todos.</span></h2>
+      <p>Nieves Legacy Partners trabaja mejor con personas y familias que valoran la claridad, la disciplina y la visión de largo plazo.</p>
+    </div>
+    <div class="alineacion-grid reveal">
+      <div class="alin-col yes">
+        <h4>Este proceso puede ser para ti si:</h4>
+        <ul class="alin-list">
+          <li><span class="check">◆</span>Tienes ingresos estables y quieres tomar decisiones con más estructura.</li>
+          <li><span class="check">◆</span>Sientes que necesitas claridad antes de avanzar.</li>
+          <li><span class="check">◆</span>Quieres proteger lo que has construido.</li>
+          <li><span class="check">◆</span>Valoras el acompañamiento personalizado y la visión de legado.</li>
+          <li><span class="check">◆</span>Prefieres dirección seria antes que soluciones rápidas.</li>
+        </ul>
+      </div>
+      <div class="alin-col no">
+        <h4>Este proceso no es para ti si:</h4>
+        <ul class="alin-list">
+          <li><span class="check">✕</span>Buscas resultados inmediatos sin compromiso.</li>
+          <li><span class="check">✕</span>Esperas garantías financieras o promesas vacías.</li>
+          <li><span class="check">✕</span>Quieres una fórmula genérica.</li>
+          <li><span class="check">✕</span>No estás dispuesto a mirar tu situación con honestidad.</li>
+          <li><span class="check">✕</span>No valoras un proceso estratégico de largo plazo.</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- GALLERY -->
+<div id="gallery">
+  <div class="gallery-slider" id="gallerySlider">
+    <img class="gallery-img" src="photo1.jpg" alt="William Nieves" loading="lazy"/>
+    <img class="gallery-img" src="photo3.jpg" alt="William Nieves" loading="lazy"/>
+    <img class="gallery-img" src="photo4.jpg" alt="William Nieves" loading="lazy"/>
+    <img class="gallery-img" src="photo5.jpg" alt="William Nieves" loading="lazy" style="object-position:center;"/>
+    <img class="gallery-img" src="photo6.jpg" alt="William Nieves" loading="lazy"/>
+    <img class="gallery-img" src="photo2.jpg" alt="William Nieves" loading="lazy"/>
+  </div>
+  <div class="gallery-nav">
+    <button class="gallery-arrow" onclick="slideGallery(-1)">&#8592;</button>
+    <div class="gallery-dots" id="galleryDots">
+      <button class="gallery-dot active"></button>
+      <button class="gallery-dot"></button>
+      <button class="gallery-dot"></button>
+      <button class="gallery-dot"></button>
+      <button class="gallery-dot"></button>
+      <button class="gallery-dot"></button>
+    </div>
+    <button class="gallery-arrow" onclick="slideGallery(1)">&#8594;</button>
+  </div>
+</div>
+
+<!-- FAQ -->
+<section id="faq" style="background:var(--white);">
+  <div class="section-inner">
+    <div class="faq-header reveal">
+      <span class="section-label">Preguntas Frecuentes</span>
+      <div class="gold-line center"></div>
+      <h2>Respuestas <span class="gold italic">directas.</span></h2>
+    </div>
+    <div class="faq-list">
+      <div class="faq-item"><div class="faq-q" onclick="toggleFaq(this)"><h4>¿Qué tipo de servicio ofrece Nieves Legacy Partners?</h4><div class="faq-icon">+</div></div><div class="faq-a"><p>Ofrecemos acompañamiento estratégico y educativo para ayudar a familias a ganar claridad, estructura y dirección. Nuestro trabajo se enfoca en entender tu panorama actual, identificar prioridades y acompañarte en un proceso personalizado alineado con tus metas de largo plazo.</p></div></div>
+      <div class="faq-item"><div class="faq-q" onclick="toggleFaq(this)"><h4>¿Nieves Legacy Partners ofrece asesoría financiera o de inversión?</h4><div class="faq-icon">+</div></div><div class="faq-a"><p>No. Nuestro acompañamiento es estratégico, educativo y personalizado. No constituye asesoría financiera, legal, contributiva ni de inversión. Cuando sea necesario, recomendamos consultar con profesionales licenciados según la situación particular.</p></div></div>
+      <div class="faq-item"><div class="faq-q" onclick="toggleFaq(this)"><h4>¿Para quién es este servicio?</h4><div class="faq-icon">+</div></div><div class="faq-a"><p>Es para familias trabajadoras, profesionales y personas con ingresos estables que desean ordenar su panorama, proteger lo que han construido y avanzar con mayor claridad. No es para personas buscando soluciones rápidas, garantías o promesas vacías.</p></div></div>
+      <div class="faq-item"><div class="faq-q" onclick="toggleFaq(this)"><h4>¿Qué es la Llamada de Descubrimiento?</h4><div class="faq-icon">+</div></div><div class="faq-a"><p>Es una conversación inicial, sin presión y sin compromiso, donde evaluamos tu situación general, tus metas y si existe alineación con el acompañamiento de la firma. El objetivo es darte claridad sobre el posible próximo paso.</p></div></div>
+      <div class="faq-item"><div class="faq-q" onclick="toggleFaq(this)"><h4>¿La llamada garantiza que podré trabajar con la firma?</h4><div class="faq-icon">+</div></div><div class="faq-a"><p>No. La llamada existe para evaluar alineación. Si entendemos que no somos el mejor camino para tu situación actual, te lo diremos con respeto y transparencia.</p></div></div>
+      <div class="faq-item"><div class="faq-q" onclick="toggleFaq(this)"><h4>¿Cuál es la diferencia entre Clarity Program y una consulta estratégica?</h4><div class="faq-icon">+</div></div><div class="faq-a"><p>The Clarity Program es un proceso de 90 días de coaching 1:1 diseñado para ordenar tu panorama y ganar dirección. La Llamada de Descubrimiento es el primer paso para evaluar si existe alineación antes de comenzar cualquier proceso.</p></div></div>
+      <div class="faq-item"><div class="faq-q" onclick="toggleFaq(this)"><h4>¿Cuánto cuesta trabajar con la firma?</h4><div class="faq-icon">+</div></div><div class="faq-a"><p>Cada proceso es personalizado. La inversión depende de la complejidad del caso y las necesidades específicas de cada familia. Todo se conversa con transparencia antes de tomar cualquier decisión.</p></div></div>
+      <div class="faq-item"><div class="faq-q" onclick="toggleFaq(this)"><h4>¿Trabajan con familias fuera de Puerto Rico?</h4><div class="faq-icon">+</div></div><div class="faq-a"><p>Sí. El acompañamiento es completamente virtual, lo que permite servir a familias hispanas en cualquier lugar de EE.UU. y Latinoamérica. La alineación y disponibilidad se evalúan durante la llamada de descubrimiento.</p></div></div>
+      <div class="faq-item"><div class="faq-q" onclick="toggleFaq(this)"><h4>¿Qué necesito antes de agendar una llamada?</h4><div class="faq-icon">+</div></div><div class="faq-a"><p>No necesitas preparar documentos. Solo llega con claridad sobre tus metas, tus inquietudes actuales y apertura para conversar honestamente sobre lo que deseas construir.</p></div></div>
+    </div>
+  </div>
+</section>
+
+<!-- CTA -->
+<section id="cta">
+  <div class="cta-bg-shape"></div>
+  <span class="section-label">Da el Primer Paso</span>
+  <div class="gold-line center"></div>
+  <h2 class="reveal">Tu legado merece <span class="gold italic">dirección.</span></h2>
+  <p class="reveal">La claridad no comienza con una promesa. Comienza con una conversación honesta. Agenda una llamada de descubrimiento para evaluar tu situación y determinar si Nieves Legacy Partners es el acompañamiento adecuado para tu próximo paso.</p>
+  <p class="cta-micro reveal">Sin presión. Sin compromiso. Solo claridad para tomar una mejor decisión.</p>
+  <div class="cta-btns reveal">
+    <a href="https://access.nieveslegacypartners.com/widget/bookings/strategic-consultation-william" class="btn btn-gold btn-arrow" target="_blank">Agendar Llamada de Descubrimiento</a>
+    <a href="https://wa.me/19393349288" class="btn btn-outline-gold" target="_blank">Contactar por WhatsApp</a>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <div class="footer-grid">
+    <div>
+      <div class="footer-logo">
+        <a href="#hero" onclick="window.scrollTo({top:0,behavior:'smooth'});return false;" class="logo-combo" style="margin-bottom:14px;display:inline-flex;">
+          <img src="isotipo.png" alt="NL" style="height:34px;width:auto;"/>
+          <div class="logo-text">
+            <span class="logo-name" style="color:var(--off-white);">NIEVES</span>
+            <span class="logo-sub" style="color:var(--gold);">LEGACY PARTNERS LLC</span>
+          </div>
+        </a>
+      </div>
+      <p class="footer-desc">Acompañamiento estratégico para familias con visión. Claridad, estructura y dirección para construir un legado que trasciende.</p>
+      <span class="footer-tagline">Construye lo que trasciende.</span>
+    </div>
+    <div class="footer-col">
+      <h5>Navegación</h5>
+      <ul>
+        <li><a href="#about">Sobre William</a></li>
+        <li><a href="#services">Servicios</a></li>
+        <li><a href="#process">Proceso</a></li>
+        <li><a href="#faq">FAQ</a></li>
+      </ul>
+    </div>
+    <div class="footer-col">
+      <h5>Servicios</h5>
+      <ul>
+        <li><a href="https://theclarityprogram.nieveslegacypartners.com" target="_blank">The Clarity Program</a></li>
+        <li><a href="https://webinars.nieveslegacypartners.com/" target="_blank">Live Webinar</a></li>
+        <li><a href="https://recorded.nieveslegacypartners.com/" target="_blank">Recorded Webinar</a></li>
+        <li><a href="https://access.nieveslegacypartners.com/widget/bookings/strategic-consultation-william" target="_blank">Agendar Llamada</a></li>
+      </ul>
+    </div>
+    <div class="footer-col">
+      <h5>Contacto</h5>
+      <ul>
+        <li><a href="https://wa.me/19393349288" target="_blank">WhatsApp (Preferido)</a></li>
+        <li><a href="mailto:info@nieveslegacypartners.com">info@nieveslegacypartners.com</a></li>
+        <li><a href="tel:+19393349288">(939) 334-9288</a></li>
+      </ul>
+      <div class="footer-social-row" style="margin-top:16px;">
+        <a href="https://www.instagram.com/williamnievesofficial" target="_blank" class="soc-btn" title="Instagram"><svg viewBox="0 0 24 24"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.052.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98C8.333 23.986 8.741 24 12 24c3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 100 12.324 6.162 6.162 0 000-12.324zM12 16a4 4 0 110-8 4 4 0 010 8zm6.406-11.845a1.44 1.44 0 100 2.881 1.44 1.44 0 000-2.881z"/></svg></a>
+        <a href="https://youtube.com/@nieves_legacy_partners" target="_blank" class="soc-btn" title="YouTube"><svg viewBox="0 0 24 24"><path d="M23.498 6.186a3.016 3.016 0 00-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 00.502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 002.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 002.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/></svg></a>
+        <a href="https://www.facebook.com/share/1Dnyq41jXm/" target="_blank" class="soc-btn" title="Facebook"><svg viewBox="0 0 24 24"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg></a>
+        <a href="https://www.tiktok.com/@nieveslegacypartners" target="_blank" class="soc-btn" title="TikTok"><svg viewBox="0 0 24 24"><path d="M12.525.02c1.31-.02 2.61-.01 3.91-.02.08 1.53.63 3.09 1.75 4.17 1.12 1.11 2.7 1.62 4.24 1.79v4.03c-1.44-.05-2.89-.35-4.2-.97-.57-.26-1.1-.59-1.62-.93-.01 2.92.01 5.84-.02 8.75-.08 1.4-.54 2.79-1.35 3.94-1.31 1.92-3.58 3.17-5.91 3.21-1.43.08-2.86-.31-4.08-1.03-2.02-1.19-3.44-3.37-3.65-5.71-.02-.5-.03-1-.01-1.49.18-1.9 1.12-3.72 2.58-4.96 1.66-1.44 3.98-2.13 6.15-1.72.02 1.48-.04 2.96-.04 4.44-.99-.32-2.15-.23-3.02.37-.63.41-1.11 1.04-1.36 1.75-.21.51-.15 1.07-.14 1.61.24 1.64 1.82 3.02 3.5 2.87 1.12-.01 2.19-.66 2.77-1.61.19-.33.4-.67.41-1.06.1-1.79.06-3.57.07-5.36.01-4.03-.01-8.05.02-12.07z"/></svg></a>
+        <a href="https://wa.me/19393349288" target="_blank" class="soc-btn" title="WhatsApp"><svg viewBox="0 0 24 24"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg></a>
+      </div>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <p class="footer-disclaimer"><strong>Aviso Legal:</strong> Nieves Legacy Partners LLC ofrece acompañamiento estratégico, educativo y personalizado. William Nieves no es un asesor financiero certificado (CFP), planificador financiero registrado, asesor de inversiones registrado (RIA), ni fiduciario. La información presentada en este website no constituye asesoría financiera, legal, contributiva ni de inversión. No se garantizan resultados específicos. Cada decisión financiera debe evaluarse según la situación particular de cada persona o familia y, cuando aplique, con profesionales licenciados en las áreas correspondientes.</p>
+    <p class="footer-copy">© 2026 Nieves Legacy Partners LLC. Todos los derechos reservados.</p>
+  </div>
+</footer>
+
+<!-- STICKY CTA BAR -->
+<div class="sticky-cta" id="stickyCta">
+  <p>¿Listo para dar el primer paso? Una conversación sin compromiso puede cambiar tu dirección.</p>
+  <a href="https://access.nieveslegacypartners.com/widget/bookings/strategic-consultation-william" class="btn btn-gold btn-arrow" target="_blank" style="white-space:nowrap;">Agendar Llamada</a>
+</div>
+
+<!-- WHATSAPP -->
+<a class="wa-float" href="https://wa.me/19393349288" target="_blank" aria-label="WhatsApp">
+  <svg viewBox="0 0 24 24"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+</a>
+
+<script>
+// ── NAV SCROLL
+const navbar = document.getElementById('navbar');
+const navCtaBtn = document.getElementById('nav-cta-btn');
+const stickyCta = document.getElementById('stickyCta');
+let lastScroll = 0;
+window.addEventListener('scroll', () => {
+  const s = window.scrollY;
+  navbar.classList.toggle('scrolled', s > 50);
+  if(navCtaBtn) navCtaBtn.style.display = s > 300 ? 'inline-flex' : 'none';
+  stickyCta.classList.toggle('show', s > 600);
+  lastScroll = s;
+}, {passive: true});
+
+// ── SIDE PANEL
+const hamburgerBtn = document.getElementById('hamburgerBtn');
+const sidePanel = document.getElementById('sidePanel');
+const sideOverlay = document.getElementById('sideOverlay');
+function openPanel() {
+  hamburgerBtn.classList.add('open');
+  sidePanel.classList.add('open');
+  sideOverlay.classList.add('open');
+  document.body.style.overflow = 'hidden';
+}
+function closePanel() {
+  hamburgerBtn.classList.remove('open');
+  sidePanel.classList.remove('open');
+  sideOverlay.classList.remove('open');
+  document.body.style.overflow = '';
+}
+hamburgerBtn.addEventListener('click', () => {
+  sidePanel.classList.contains('open') ? closePanel() : openPanel();
+});
+document.addEventListener('keydown', e => { if(e.key === 'Escape') closePanel(); });
+
+// ── REVEAL
+const reveals = document.querySelectorAll('.reveal');
+reveals.forEach(el => el.classList.add('hidden'));
+const revealObs = new IntersectionObserver((entries) => {
+  entries.forEach(e => {
+    if(e.isIntersecting){ e.target.classList.remove('hidden'); e.target.classList.add('visible'); revealObs.unobserve(e.target); }
+  });
+}, {threshold: 0.1});
+reveals.forEach(el => revealObs.observe(el));
+
+// ── FAQ
+function toggleFaq(el) {
+  const item = el.parentElement;
+  const isOpen = item.classList.contains('open');
+  document.querySelectorAll('.faq-item').forEach(i => i.classList.remove('open'));
+  if(!isOpen) item.classList.add('open');
+}
+
+// ── GALLERY SLIDER
+const slider = document.getElementById('gallerySlider');
+const dots = document.querySelectorAll('.gallery-dot');
+let curSlide = 0;
+function updateDots(i){ dots.forEach((d,j) => d.classList.toggle('active', j===i)); }
+function slideGallery(dir) {
+  const total = slider.querySelectorAll('.gallery-img').length;
+  curSlide = Math.max(0, Math.min(curSlide + dir, total - 1));
+  const w = slider.querySelectorAll('.gallery-img')[0].offsetWidth + 10;
+  slider.scrollTo({left: curSlide * w, behavior:'smooth'});
+  updateDots(curSlide);
+}
+dots.forEach((dot, i) => dot.addEventListener('click', () => {
+  curSlide = i;
+  const w = slider.querySelectorAll('.gallery-img')[0].offsetWidth + 10;
+  slider.scrollTo({left: i * w, behavior:'smooth'});
+  updateDots(i);
+}));
+let isDragging = false, startX, scrollLeft;
+slider.addEventListener('mousedown', e => { isDragging=true; startX=e.pageX-slider.offsetLeft; scrollLeft=slider.scrollLeft; slider.style.cursor='grabbing'; });
+slider.addEventListener('mouseleave', () => { isDragging=false; slider.style.cursor='grab'; });
+slider.addEventListener('mouseup', () => { isDragging=false; slider.style.cursor='grab'; });
+slider.addEventListener('mousemove', e => { if(!isDragging) return; e.preventDefault(); slider.scrollLeft = scrollLeft - (e.pageX - slider.offsetLeft - startX) * 1.5; });
+slider.addEventListener('scroll', () => {
+  const w = slider.querySelectorAll('.gallery-img')[0]?.offsetWidth + 10;
+  const idx = Math.round(slider.scrollLeft / w);
+  if(idx !== curSlide){ curSlide = idx; updateDots(idx); }
+}, {passive: true});
+
+// ── LEAD FORM
+function submitLead() {
+  const name = document.getElementById('lead-name').value.trim();
+  const email = document.getElementById('lead-email').value.trim();
+  const phone = document.getElementById('lead-phone').value.trim();
+  if(!name || !email){ alert('Por favor completa tu nombre y correo electrónico.'); return; }
+  const btn = document.querySelector('.hero-form-wrap .btn');
+  btn.textContent = '✓ ¡Recibido! Redirigiendo...';
+  btn.style.background = '#2d6a4f';
+  setTimeout(() => {
+    window.open('https://access.nieveslegacypartners.com/widget/bookings/strategic-consultation-william', '_blank');
+  }, 900);
+}
+
+// ── SMOOTH SCROLL
+document.querySelectorAll('a[href^="#"]').forEach(a => {
+  a.addEventListener('click', function(e) {
+    const t = document.querySelector(this.getAttribute('href'));
+    if(t){ e.preventDefault(); t.scrollIntoView({behavior:'smooth', block:'start'}); }
+  });
+});
+</script>
+</body>
+</html>
